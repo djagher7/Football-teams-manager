@@ -30,7 +30,6 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtVarsta = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.txtIDNP = new System.Windows.Forms.TextBox();
             this.txtPozitie = new System.Windows.Forms.TextBox();
             this.txtNume = new System.Windows.Forms.TextBox();
@@ -39,9 +38,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnShow = new System.Windows.Forms.Button();
@@ -70,20 +69,15 @@
             // 
             // txtVarsta
             // 
+            this.txtVarsta.Enabled = false;
             this.txtVarsta.Location = new System.Drawing.Point(180, 196);
             this.txtVarsta.Name = "txtVarsta";
             this.txtVarsta.Size = new System.Drawing.Size(92, 27);
             this.txtVarsta.TabIndex = 7;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(180, 159);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(209, 27);
-            this.dateTimePicker1.TabIndex = 6;
-            // 
             // txtIDNP
             // 
+            this.txtIDNP.Enabled = false;
             this.txtIDNP.Location = new System.Drawing.Point(180, 120);
             this.txtIDNP.Name = "txtIDNP";
             this.txtIDNP.Size = new System.Drawing.Size(209, 27);
@@ -91,6 +85,7 @@
             // 
             // txtPozitie
             // 
+            this.txtPozitie.Enabled = false;
             this.txtPozitie.Location = new System.Drawing.Point(180, 83);
             this.txtPozitie.Name = "txtPozitie";
             this.txtPozitie.Size = new System.Drawing.Size(209, 27);
@@ -98,6 +93,7 @@
             // 
             // txtNume
             // 
+            this.txtNume.Enabled = false;
             this.txtNume.Location = new System.Drawing.Point(180, 45);
             this.txtNume.Name = "txtNume";
             this.txtNume.Size = new System.Drawing.Size(209, 27);
@@ -148,6 +144,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Nume";
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Enabled = false;
+            this.dateTimePicker1.Location = new System.Drawing.Point(180, 159);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(209, 27);
+            this.dateTimePicker1.TabIndex = 6;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -159,20 +163,12 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(84, 35);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(146, 24);
             this.comboBox1.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(47, 347);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Echipă Nouă";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -185,18 +181,20 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.BottomUp;
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(47, 88);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(333, 239);
             this.flowLayoutPanel1.TabIndex = 5;
+            this.flowLayoutPanel1.WrapContents = false;
             // 
             // btnShow
             // 
             this.btnShow.Location = new System.Drawing.Point(258, 35);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(122, 23);
+            this.btnShow.Size = new System.Drawing.Size(122, 30);
             this.btnShow.TabIndex = 6;
             this.btnShow.Text = "Afișare Echipă";
             this.btnShow.UseVisualStyleBackColor = true;
@@ -210,7 +208,6 @@
             this.Controls.Add(this.btnShow);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.groupBox1);
@@ -239,7 +236,6 @@
         private System.Windows.Forms.TextBox txtVarsta;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button btnShow;

@@ -24,7 +24,7 @@ namespace Football_teams_manager
 
             comboBox1.DataSource = echipe;
 
-            comboBox1.SelectedIndex = -1;
+            comboBox1.SelectedIndex = 1;
         }
 
         public void readFromFile(string path)
@@ -63,8 +63,8 @@ namespace Football_teams_manager
             foreach (var p in lista)
             {
                 Button btn = new Button();
-                btn.Width = 150;
-                btn.Height = 40;
+                btn.Width = 240;
+                btn.Height = 30;
 
                 btn.Text = p.name;
                 btn.Tag = p;
