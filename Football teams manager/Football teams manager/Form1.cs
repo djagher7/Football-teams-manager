@@ -101,5 +101,11 @@ namespace Football_teams_manager
         {
             comboBox1_SelectedIndexChanged(sender, e);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+        }
     }
 }
