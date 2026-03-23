@@ -25,15 +25,19 @@ namespace Football_teams_manager
         }
     }
 
+
+
     class Player
     {
+        string team;
         string name;
         string position;
         int idnp;
         string birthAge;
 
-        public Player(string name, string position, int idnp, string birthAge)
+        public Player(string team, string name, string position, int idnp, string birthAge)
         {
+            this.team = team;
             this.name = name;
             this.position = position;
             this.idnp = idnp;

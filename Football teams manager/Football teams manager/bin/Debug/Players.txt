@@ -1,0 +1,15 @@
+Sheriff Tiraspol;Ion Popescu;Atacant;2001234567890;2000-05-12
+Sheriff Tiraspol;Petru Balan;Fundas;2006789012345;2002-04-03
+Sheriff Tiraspol;Andrei Rusu;Mijlocas;1999876543210;1999-11-23
+Sheriff Tiraspol;Alexandru Nistor;Portar;1998765432109;1998-08-17
+Sheriff Tiraspol;Cristian Moraru;Fundas;1997654321098;1997-12-09
+Zimbru Chisinau;Mihai Lungu;Atacant;2003456789012;2001-03-30
+Zimbru Chisinau;Daniel Cojocaru;Mijlocas;2004567890123;2003-07-21
+Zimbru Chisinau;Sergiu Munteanu;Atacant;1996543210987;1996-01-14
+Zimbru Chisinau;Iulian Grosu;Fundas;2005678901234;2004-09-28
+Zimbru Chisinau;Nicolae Toma;Mijlocas;1995432109876;1995-06-11
+Petrocub Hincesti;Valentin Damian;Atacant;1994321098765;1994-10-19
+Petrocub Hincesti;George Rotaru;Mijlocas;2007890123456;2005-01-07
+Petrocub Hincesti;Adrian Ceban;Fundas;1993210987654;1993-12-25
+Petrocub Hincesti;Florin Sandu;Portar;2008901234567;2006-02-16
+Petrocub Hincesti;Vlad Ciobanu;Fundas;2002345678901;2002-02-05
