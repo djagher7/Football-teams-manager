@@ -1,0 +1,10 @@
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\bin\Debug\Football teams manager.exe.config
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\bin\Debug\Football teams manager.exe
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\bin\Debug\Football teams manager.pdb
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\obj\Debug\Football teams manager.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\obj\Debug\Football_teams_manager.Form1.resources
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\obj\Debug\Football_teams_manager.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\obj\Debug\Football teams manager.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\obj\Debug\Football teams manager.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\obj\Debug\Football teams manager.exe
+C:\Users\Lenovo\Desktop\football teams\Football teams manager\Football teams manager\obj\Debug\Football teams manager.pdb
